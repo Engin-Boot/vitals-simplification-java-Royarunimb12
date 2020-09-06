@@ -25,8 +25,8 @@ public class Main {
 
 
     public static void main(String[] args) {
-        assert(vitalsAreOk(80, 97, 40) == true);
-        assert(vitalsAreOk(60, 98, 40) == false);
+        assert(isbpOk(80)==true);
+        
         System.out.println("Some more tests needed");
     }
 }
