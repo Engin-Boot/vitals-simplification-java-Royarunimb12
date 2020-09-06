@@ -18,7 +18,7 @@ public class Main {
         return isVital_LimitsOk(respRate, RespRate_Limits[0], RespRate_Limits[1]);
     }
 
-    public static boolean isVital_LimitsOk(float val, float high, float low)
+    public static boolean isVital_LimitsOk(float val, float low, float high)
     {
         return (val >= low && val <= high);
     }
