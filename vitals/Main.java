@@ -2,30 +2,6 @@ package vitals;
 
 public class Main {
 
-
-
-    static boolean BPMinRange(float bpm){
-        if(bpm<70 || bpm>150)
-            return false;
-        return true;
-
-    }
-    static boolean SPO2inRange(float spo2){
-        if(spo2<90)
-            return false;
-        return true;
-    }
-    static boolean RespRateinRange(float respRate){
-        if(respRate<30 || respRate>95)
-        {
-            return false;
-        }
-        return true;
-    }
-
-    static boolean vitalsAreOk(float bpm, float spo2, float respRate) {
-        return (BPMinRange(bpm) && SPO2inRange(spo2) && RespRateinRange((respRate)));
-    }
     private static float[] BP_limits={70,150};
     private static float[] Spo2_Limits={30,100};
     private static float[] RespRate_Limits={30,95};
