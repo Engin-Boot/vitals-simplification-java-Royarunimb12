@@ -8,7 +8,7 @@ public class ReporterFactory {
     public static IReporter getReporterInstance() {
         ResourceBundle.clearCache();
 
-        ResourceBundle rb = ResourceBundle.getBundle("resources/reporter");
+        ResourceBundle rb = ResourceBundle.getBundle("vitals/resources/reporter");
         String strclass = rb.getString("cname");
         IReporter reporter = null;
         try {
