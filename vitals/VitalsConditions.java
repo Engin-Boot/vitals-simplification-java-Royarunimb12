@@ -5,7 +5,7 @@ import java.util.List;
 
 public class VitalsConditions {
     public static List<Vitals> lvit = new ArrayList<>();
-    public static IReporter irep=new ReporterPlugins();
+    public static IReporter irep=ReporterFactory.getReporterInstance();
 
     static void addVital(Vitals vital) {
         lvit.add(vital);
