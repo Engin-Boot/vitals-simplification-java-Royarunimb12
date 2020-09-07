@@ -1,7 +1,5 @@
 package vitals;
 
-import vitals.IReporter;
-
 import java.util.ResourceBundle;
 
 public class ReporterFactory {
